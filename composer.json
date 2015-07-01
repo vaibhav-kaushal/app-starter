@@ -8,7 +8,7 @@
   "require": {
       "lastcraft/simpletest": "dev-master"
   },
-  "name": "qcubed/app_starter",
+  "name": "qcubed/app-starter",
   "description": "QCubed application starter template",
   "keywords": ["qcubed", "framework", "project template"],
   "homepage": "http://qcu.be/",
