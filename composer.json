@@ -5,9 +5,6 @@
           "url": "https://github.com/spekary/qcubed"
       }
   ],
-  "require": {
-      "lastcraft/simpletest": "dev-master"
-  },
   "name": "qcubed/app-starter",
   "description": "QCubed application starter template",
   "keywords": ["qcubed", "framework", "project template"],
@@ -20,8 +17,8 @@
   },
   "require": {
     "php": ">=5.4.0",
-    "qcubed/framework": "master",
-    "ezyang/htmlpurifier": "dev-master"
+    "ezyang/htmlpurifier": "dev-master",
+    "qcubed/framework": "master"
   },
   "require-dev": {
     "lastcraft/simpletest": "dev-master"
