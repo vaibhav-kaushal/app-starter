@@ -44,3 +44,7 @@ configuration process.
 ~~~
 http://localhost/your_dir_name/
 ~~~
+
+If you would like to eventually place the project somewhere else in your webserver tree, even at the root level, it is
+easy to do by modifying the __SUBDIRECTORY__ configuration file setting and moving the contents of the directory to the
+new location.

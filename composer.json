@@ -37,22 +37,8 @@
     "post-package-uninstall": [
       "QCubed\\Devtools\\Installer::postPackageUninstall"
     ],
-    "post-create-project-cmd": [
-      "QCubed\\Devtools\\Installer::postCreateProject"
-    ],
     "test": [
       "QCubed\\Devtools\\Installer::postPackageInstall"
     ]
-  },
-  "extra": {
-    "QCubed\\Devtools\\Installer::postCreateProject": {
-      "setPermission": [
-        {
-          "project": "0777"
-        }
-      ]
-    }
   }
-
-
 }
