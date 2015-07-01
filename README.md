@@ -1,4 +1,4 @@
-# app_starter
+# QCubed Application Starter
 This is the application starter project that sets up your environment using composer. 
 
 
