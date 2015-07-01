@@ -2,7 +2,7 @@
   "repositories": [
       {
           "type": "vcs",
-          "url": "https://github.com/spekary/qcubed"
+          "url": "https://github.com/qcubed/framework"
       }
   ],
   "name": "qcubed/app-starter",
@@ -18,7 +18,7 @@
   "require": {
     "php": ">=5.4.0",
     "ezyang/htmlpurifier": "dev-master",
-    "qcubed/framework": "master"
+    "qcubed/framework": "dev-beta-3.0"
   },
   "require-dev": {
     "lastcraft/simpletest": "dev-master"
