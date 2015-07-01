@@ -2,7 +2,7 @@
   "repositories": [
       {
           "type": "vcs",
-          "url": "https://github.com/qcubed/framework"
+          "url": "https://github.com/spekary/qcubed"
       }
   ],
   "require": {
@@ -20,7 +20,7 @@
   },
   "require": {
     "php": ">=5.4.0",
-    "qcubed/framework": "dev-beta-3.0",
+    "qcubed/framework": "master",
     "ezyang/htmlpurifier": "dev-master"
   },
   "require-dev": {
