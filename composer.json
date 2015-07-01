@@ -1,0 +1,58 @@
+{
+  "repositories": [
+      {
+          "type": "vcs",
+          "url": "https://github.com/qcubed/framework"
+      }
+  ],
+  "require": {
+      "lastcraft/simpletest": "dev-master"
+  },
+  "name": "qcubed/app_starter",
+  "description": "QCubed application starter template",
+  "keywords": ["qcubed", "framework", "project template"],
+  "homepage": "http://qcu.be/",
+  "type": "project",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/qcubed/framework/issues?state=open",
+    "source": "https://github.com/qcubed/framework"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "qcubed/framework": "dev-beta-3.0",
+    "ezyang/htmlpurifier": "dev-master"
+  },
+  "require-dev": {
+    "lastcraft/simpletest": "dev-master"
+  },
+  "minimum-stability":"dev",
+  "scripts": {
+    "post-package-install": [
+      "QCubed\\Devtools\\Installer::postPackageInstall"
+    ],
+    "post-package-update": [
+      "QCubed\\Devtools\\Installer::postPackageUpdate"
+    ],
+    "post-package-uninstall": [
+      "QCubed\\Devtools\\Installer::postPackageUninstall"
+    ],
+    "post-create-project-cmd": [
+      "QCubed\\Devtools\\Installer::postCreateProject"
+    ],
+    "test": [
+      "QCubed\\Devtools\\Installer::postPackageInstall"
+    ]
+  },
+  "extra": {
+    "QCubed\\Devtools\\Installer::postCreateProject": {
+      "setPermission": [
+        {
+          "project": "0777"
+        }
+      ]
+    }
+  }
+
+
+}
