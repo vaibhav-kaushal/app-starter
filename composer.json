@@ -17,8 +17,8 @@
   },
   "require": {
     "php": ">=5.4.0",
-    "ezyang/htmlpurifier": "dev-master",
-    "qcubed/framework": "dev-beta-3.0"
+    "qcubed/framework": "dev-beta-3.0",
+    "ezyang/htmlpurifier": "dev-master"
   },
   "require-dev": {
     "lastcraft/simpletest": "dev-master"
@@ -33,9 +33,6 @@
     ],
     "post-package-uninstall": [
       "QCubed\\Devtools\\Installer::postPackageUninstall"
-    ],
-    "test": [
-      "QCubed\\Devtools\\Installer::postPackageInstall"
     ]
   }
 }
