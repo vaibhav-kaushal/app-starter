@@ -2,13 +2,13 @@
   "repositories": [
       {
           "type": "vcs",
-          "url": "https://github.com/spekary/qcubed"
+          "url": "https://github.com/qcubed/framework"
       }
   ],
   "require": {
       "lastcraft/simpletest": "dev-master"
   },
-  "name": "qcubed/app_starter",
+  "name": "qcubed/app-starter",
   "description": "QCubed application starter template",
   "keywords": ["qcubed", "framework", "project template"],
   "homepage": "http://qcu.be/",
@@ -20,7 +20,7 @@
   },
   "require": {
     "php": ">=5.4.0",
-    "qcubed/framework": "master",
+    "qcubed/framework": "dev-beta-3.0",
     "ezyang/htmlpurifier": "dev-master"
   },
   "require-dev": {
@@ -36,9 +36,6 @@
     ],
     "post-package-uninstall": [
       "QCubed\\Devtools\\Installer::postPackageUninstall"
-    ],
-    "test": [
-      "QCubed\\Devtools\\Installer::postPackageInstall"
     ]
   }
 }
