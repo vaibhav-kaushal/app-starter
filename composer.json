@@ -1,4 +1,10 @@
 {
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/qcubed/framework"
+    }
+  ],
   "name": "qcubed/app-starter",
   "description": "QCubed application starter template",
   "keywords": ["qcubed", "framework", "project template"],
