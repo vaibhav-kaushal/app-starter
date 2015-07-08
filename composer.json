@@ -1,15 +1,4 @@
 {
-  "repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/spekary/framework"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/spekary/composer"
-    }
-
-  ],
   "name": "qcubed/app-starter",
   "description": "QCubed application starter template",
   "keywords": ["qcubed", "framework", "project template"],
@@ -31,16 +20,5 @@
   "suggest": {
     "ezyang/htmlpurifier": "dev-master"
   },
-  "minimum-stability":"dev",
-  "scripts": {
-    "post-package-install": [
-      "QCubed\\Devtools\\Installer::postPackageInstall"
-    ],
-    "post-package-update": [
-      "QCubed\\Devtools\\Installer::postPackageUpdate"
-    ],
-    "post-package-uninstall": [
-      "QCubed\\Devtools\\Installer::postPackageUninstall"
-    ]
-  }
+  "minimum-stability":"dev"
 }
