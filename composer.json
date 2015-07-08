@@ -1,9 +1,9 @@
 {
   "repositories": [
-      {
-          "type": "vcs",
-          "url": "https://github.com/qcubed/framework"
-      }
+    {
+      "type": "vcs",
+      "url": "https://github.com/qcubed/framework"
+    }
   ],
   "name": "qcubed/app-starter",
   "description": "QCubed application starter template",
@@ -17,7 +17,8 @@
   },
   "require": {
     "php": ">=5.4.0",
-    "qcubed/framework": "dev-beta-3.0"
+    "qcubed/framework": "dev-beta-3.0",
+    "qcubed/composer": "dev-master"
   },
   "require-dev": {
     "lastcraft/simpletest": "dev-master"
@@ -25,16 +26,5 @@
   "suggest": {
     "ezyang/htmlpurifier": "dev-master"
   },
-  "minimum-stability":"dev",
-  "scripts": {
-    "post-package-install": [
-      "QCubed\\Devtools\\Installer::postPackageInstall"
-    ],
-    "post-package-update": [
-      "QCubed\\Devtools\\Installer::postPackageUpdate"
-    ],
-    "post-package-uninstall": [
-      "QCubed\\Devtools\\Installer::postPackageUninstall"
-    ]
-  }
+  "minimum-stability":"dev"
 }
