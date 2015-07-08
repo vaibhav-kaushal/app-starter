@@ -1,9 +1,14 @@
 {
   "repositories": [
-      {
-          "type": "vcs",
-          "url": "https://github.com/qcubed/framework"
-      }
+    {
+        "type": "vcs",
+        "url": "https://github.com/spekary/framework"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/spekary/composer"
+    }
+
   ],
   "name": "qcubed/app-starter",
   "description": "QCubed application starter template",
@@ -17,7 +22,8 @@
   },
   "require": {
     "php": ">=5.4.0",
-    "qcubed/framework": "dev-beta-3.0"
+    "qcubed/framework": "dev-beta-3.0",
+    "qcubed/composer": "dev-master"
   },
   "require-dev": {
     "lastcraft/simpletest": "dev-master"
