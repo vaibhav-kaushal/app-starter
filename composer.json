@@ -3,7 +3,12 @@
     {
       "type": "vcs",
       "url": "https://github.com/qcubed/framework"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/qcubed/composer"
     }
+
   ],
   "name": "qcubed/app-starter",
   "description": "QCubed application starter template",
