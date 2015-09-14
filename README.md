@@ -9,7 +9,7 @@ You must have a web server, like apache or nginx, installed and working on your 
 
 You must have PHP version 5.4.0 or greater installed and working.
 
-You must have some kind of SQL database. MySQL, Postresql, and many others are supported.
+You must have some kind of SQL database. MySQL, PostreSQL, and many others are supported.
 
 We highly recommend you also install Composer. Composer helps you manage version changes in all your different
 PHP packages, and we rely on that to provide installation and update services for QCubed.
