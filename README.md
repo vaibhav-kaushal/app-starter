@@ -38,6 +38,19 @@ just enter:
 composer create-project qcubed/app-starter your_dir_name
 ~~~
 
+------------
+**NOTE**: If you get an error saying 
+~~~
+  [InvalidArgumentException]                                        
+  Could not find package qcubed/app-starter with stability stable.
+~~~
+then please add the stability requirement in the command argument. The new command would look like: 
+
+~~~
+composer create-project --stability=dev qcubed/app-starter your_dir_name
+~~~
+------------
+
 Assuming you installed into the document root of your local web server, enter the following to begin the 
 configuration process.
 
